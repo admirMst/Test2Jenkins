@@ -24,9 +24,13 @@ pipeline {
     }
     post {
         always {
-                    mail to: "armin.korajlic@fet.ba",
+                    mail to: "suad.kasapovic@fet.ba",
             subject: "Test Email",
-            body: "Test"
+            body: "Test Jenkins 1. SUCCESS"
+        }
+        success{
+        }
+        failure{
         }
     }
 }
