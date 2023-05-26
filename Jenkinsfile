@@ -28,9 +28,6 @@ pipeline {
             subject: "Test Email",
             body: "Test Jenkins 1. SUCCESS"
         }
-        success{
-        }
-        failure{
-        }
+   
     }
 }
